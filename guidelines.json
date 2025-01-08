@@ -1,3 +1,4 @@
 {
-    "supported_protocols": "https://github.com/grixprotocol/defi-options-adapters"
+    "supported_protocols": "https://github.com/grixprotocol/defi-options-adapters/protocols_mapper.json",
+    "supported_actions_by_protocol": "https://github.com/grixprotocol/defi-options-adapters/actions_by_protocol.json"
 }
