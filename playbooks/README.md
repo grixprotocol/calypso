@@ -24,23 +24,3 @@ Playbooks can be:
 1. Clear documentation
 2. Comprehensive testing
 3. Risk management focus
-4. Performance metrics
-5. Version control
-
-## Resources
-
-- Strategy Development Guide: See strategies/README.md
-- Agent Configuration: See agent/README.md
-- Vision Document: See vision.md
-
-## Contributing
-
-We welcome community contributions. Please ensure your playbooks:
-
-1. Follow the standard structure
-2. Include comprehensive documentation
-3. Implement proper risk management
-4. Consider various market conditions
-5. Provide clear usage examples
-
-For detailed contribution guidelines, see CONTRIBUTING.md
