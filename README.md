@@ -41,7 +41,7 @@ We are continuously working to:
 
 ## Contributing
 
-- [Onchain Options Adapter](https://github.com/grixprotocol/defi-options-adapters)
+- [Onchain Options Adapter](https://github.com/grixprotocol/defi-options-adapters) - So Agents can interact with the protocols
 - [Onchain Options Hub](https://github.com/grixprotocol/defi-options-hub)
 
 We welcome contributions from the community. Please refer to our contribution guidelines for more information.

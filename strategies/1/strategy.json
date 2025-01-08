@@ -1,7 +1,4 @@
 {
-    "strategy_name": "Protective Put Basic",
-    "description": "Basic protective put strategy that buys {underlying_asset} and a put option for downside protection",
-    "version": "1.0",
     "parameters": {
         "position_size": 1.0,
         "put_strike_percentage": 0.90,
@@ -35,35 +32,6 @@
         "max_position_size": 0.20,
         "max_loss_per_trade": 0.05
     },
-    "scenarios": [
-        {
-            "name": "Sideways Market Protection",
-            "description": "Use when expecting sideways movement with downside risks",
-            "market_conditions": {
-                "volatility": "medium",
-                "trend": "sideways",
-                "recommended_duration": "30d"
-            }
-        },
-        {
-            "name": "Bull Market Hedge",
-            "description": "Use during bull markets for black swan protection",
-            "market_conditions": {
-                "volatility": "low",
-                "trend": "bullish",
-                "recommended_duration": "90d"
-            }
-        },
-        {
-            "name": "High Volatility Protection",
-            "description": "Use during high volatility periods for short-term protection",
-            "market_conditions": {
-                "volatility": "high",
-                "trend": "any",
-                "recommended_duration": "7d"
-            }
-        }
-    ],
     "ai_integration": {
         "entry_signals": {
             "sentiment_analysis": {
@@ -86,11 +54,6 @@
                     "volatility"
                 ]
             }
-        },
-        "position_management": {
-            "dynamic_strike_adjustment": true,
-            "volatility_based_sizing": true,
-            "hedge_ratio_optimization": true
         }
     }
 }

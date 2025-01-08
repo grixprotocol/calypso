@@ -1,3 +1,33 @@
 {
-    "protective_put": "1"
+    "protective_put": {
+        "location": "/1/strategy.json",
+        "strategy_name": "Protective Put Basic",
+        "description": "Basic protective put strategy that buys {underlying_asset} and a put option for downside protection",
+        "scenarios": [
+            {
+                "name": "Sideways Market Protection",
+                "description": "Use when expecting sideways movement with downside risks",
+                "market_conditions": {
+                    "volatility": "medium",
+                    "trend": "sideways"
+                }
+            },
+            {
+                "name": "Bull Market Hedge",
+                "description": "Use during bull markets for black swan protection",
+                "market_conditions": {
+                    "volatility": "low",
+                    "trend": "bullish"
+                }
+            },
+            {
+                "name": "High Volatility Protection",
+                "description": "Use during high volatility periods for short-term protection",
+                "market_conditions": {
+                    "volatility": "high",
+                    "trend": "any"
+                }
+            }
+        ]
+    }
 }
