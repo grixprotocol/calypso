@@ -1,21 +1,51 @@
-# CALYPSO: AI Framework for AI Agents integrations with DeFi derivatives
+<div align="center">
+  <h1>🌊 Calypso</h1>
+  <h3>Building the Future of DeFi Derivatives Intelligence</h3>
+  
+  <p>
+    <strong>Calypso is an advanced AI framework that bridges sophisticated derivatives trading with user-friendly automation. It enables seamless integration of AI agents with DeFi derivatives protocols, making complex derivatives strategies accessible to everyone.</strong>
+  </p>
 
-## Overview
+  <p>
+    <a href="https://discord.gg/ZgPpr9psqp"><img src="https://img.shields.io/discord/YOUR_DISCORD_ID?color=7289da&label=Discord&logo=discord&logoColor=white" alt="Discord"></a>
+    <a href="https://docs.grix.finance"><img src="https://img.shields.io/badge/docs-grix.finance-blue" alt="Documentation"></a>
+    <img src="https://img.shields.io/badge/Status-Alpha-orange" alt="Status">
+  </p>
 
-Calypso is an advanced AI framework that enables seamless integration of AI agents with DeFi derivatives protocols. It provides an intelligent layer for automated derivatives trading through customizable AI agents, supporting sophisticated trading strategies across multiple protocols.
+  <br/>
+</div>
 
-## Grix's onchain derivatives data AI updates
+## Core Innovations
 
-- [Telegram Channel](https://web.telegram.org/k/#@Calypso_by_Grix)
-- [Twitter / X](https://x.com/calypso_by_grix)
+### Protocol Integration Layer
 
-## Key Features
+- Real-time cross-protocol price discovery
+- Automated position management
+- Unified liquidity access
+- Standardized interaction patterns
 
-- **AI Agent Integration**: Deploy and customize intelligent trading agents that interact with DeFi derivatives
-- **Multi-Protocol Support**: Seamless connection with major DeFi derivatives protocols
-- **Advanced Strategy Implementation**: Execute sophisticated derivatives trading strategies powered by AI
-- **On-Chain Execution**: Direct on-chain operation of all trading activities
-- **Real-Time Analytics**: Comprehensive monitoring and analysis of agent performance
+### Composable Operations
+
+- Multi-step strategy execution
+- Cross-protocol arbitrage opportunities
+- Hybrid spot-options strategies
+- Automated position lifecycle management
+
+### AI-Powered Decision Making
+
+- Real-time market analysis
+- Sophisticated trading strategy execution
+- Dynamic risk parameter management
+- Data-driven trading decisions
+- Adaptive market response
+
+## Technical Foundation
+
+Built on three core principles:
+
+1. **Modularity**: Independent and interchangeable components
+2. **Extensibility**: Easy integration of new protocols and strategies
+3. **Reliability**: Robust error handling and failsafe mechanisms
 
 ## Architecture
 
@@ -26,30 +56,26 @@ Calypso's modular architecture consists of:
 3. **Strategy Layer**: Advanced trading logic for derivatives strategies
 4. **Analytics Engine**: Performance monitoring and reporting
 
-## Development
+## Development Resources
 
-We are continuously working to:
+### Official Channels
 
-- Expand protocol integrations
-- Automated strategy execution
-- Add new trading strategies
-
-## Resources
-
-- [Grix Documentation](https://docs.grix.finance)
 - [Discord Community](https://discord.gg/ZgPpr9psqp)
+- [Telegram Channel](https://web.telegram.org/k/#@Calypso_by_Grix)
+- [Twitter / X](https://x.com/calypso_by_grix)
+
+### Development Links
+
+- [Calypso Framework](https://github.com/grixprotocol/calypso)
+- [Strategy Development Guide](https://github.com/grixprotocol/calypso/strategies)
+- [Onchain Options Adapter](https://github.com/grixprotocol/defi-options-adapters)
+- [Onchain Options Hub](https://github.com/grixprotocol/defi-options-hub)
+- [Grix Documentation](https://docs.grix.finance)
 
 ## Contributing
 
-- [Onchain Options Adapter](https://github.com/grixprotocol/defi-options-adapters) - So Agents can interact with the protocols
-- [Onchain Options Hub](https://github.com/grixprotocol/defi-options-hub)
-
-We welcome contributions from the community. Please refer to our contribution guidelines for more information.
-
-## Strategy Development
-
-- [Strategy Development Guide](strategies/README.md)
+We believe in building in the open and welcome contributions from the community. Please refer to our contribution guidelines for more information.
 
 ---
 
-*Note: Calypso is under active development.
+*Calypso is under active development, and we're just getting started.*
