@@ -1,6 +1,6 @@
 {
     "protective_put": {
-        "location": "/1/strategy.json",
+        "location": "strategies/1/strategy.json",
         "strategy_name": "Protective Put Basic",
         "description": "Basic protective put strategy that buys {underlying_asset} and a put option for downside protection",
         "scenarios": [
