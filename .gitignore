@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+
+# pnpm specific
+pnpm-lock.yaml
+.pnpm-store/
+
+# Build output
+dist/
+
+# Test coverage
+coverage/
+
+# IDE files
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# OS files
+.DS_Store
+Thumbs.db 
