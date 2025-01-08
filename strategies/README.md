@@ -7,4 +7,4 @@ This guide outlines the process and requirements for developing and contributing
 ## Strategy Structure
 
 - `README.md`: Documentation about the strategy.
-- `metadata.json`: Metadata about the strategy, including its name, description, tags, and risk level.
+- `strategy.json`: Metadata about the strategy, including its name, description, tags, and risk level.
