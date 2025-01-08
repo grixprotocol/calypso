@@ -1,0 +1,96 @@
+{
+    "strategy_name": "Protective Put Basic",
+    "description": "Basic protective put strategy that buys {underlying_asset} and a put option for downside protection",
+    "version": "1.0",
+    "parameters": {
+        "position_size": 1.0,
+        "put_strike_percentage": 0.90,
+        "duration_options": [
+            "7d",
+            "14d",
+            "30d",
+            "90d"
+        ],
+        "max_premium_percentage": 0.03
+    },
+    "entry_rules": {
+        "market_conditions": {
+            "min_daily_volume_usd": 100000000,
+            "max_volatility": 0.80,
+            "min_liquidity_depth": 1000000
+        },
+        "technical_indicators": {
+            "rsi_14d": {
+                "min": 30,
+                "max": 70
+            }
+        }
+    },
+    "exit_rules": {
+        "take_profit": 0.20,
+        "stop_loss": 0.10,
+        "time_based": "hold_until_expiration"
+    },
+    "risk_management": {
+        "max_position_size": 0.20,
+        "max_loss_per_trade": 0.05
+    },
+    "scenarios": [
+        {
+            "name": "Sideways Market Protection",
+            "description": "Use when expecting sideways movement with downside risks",
+            "market_conditions": {
+                "volatility": "medium",
+                "trend": "sideways",
+                "recommended_duration": "30d"
+            }
+        },
+        {
+            "name": "Bull Market Hedge",
+            "description": "Use during bull markets for black swan protection",
+            "market_conditions": {
+                "volatility": "low",
+                "trend": "bullish",
+                "recommended_duration": "90d"
+            }
+        },
+        {
+            "name": "High Volatility Protection",
+            "description": "Use during high volatility periods for short-term protection",
+            "market_conditions": {
+                "volatility": "high",
+                "trend": "any",
+                "recommended_duration": "7d"
+            }
+        }
+    ],
+    "ai_integration": {
+        "entry_signals": {
+            "sentiment_analysis": {
+                "sources": [
+                    "news",
+                    "social_media",
+                    "market_data"
+                ],
+                "minimum_confidence": 0.7
+            },
+            "technical_analysis": {
+                "timeframes": [
+                    "1h",
+                    "4h",
+                    "1d"
+                ],
+                "indicators": [
+                    "trend",
+                    "momentum",
+                    "volatility"
+                ]
+            }
+        },
+        "position_management": {
+            "dynamic_strike_adjustment": true,
+            "volatility_based_sizing": true,
+            "hedge_ratio_optimization": true
+        }
+    }
+}
