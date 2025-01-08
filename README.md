@@ -1,8 +1,8 @@
-# Calypso - Grix's AI Derivatives Strategy Framework
+# CALYPSO: AI Framework for AI Agents integrations with DeFi derivatives
 
 ## Overview
 
-Calypso is Grix's advanced AI framework for structured products and derivatives trading strategies. It serves as an intelligent layer that enables automated derivatives trading across multiple DeFi protocols through customizable agents.
+Calypso is an advanced AI framework that enables seamless integration of AI agents with DeFi derivatives protocols. It provides an intelligent layer for automated derivatives trading through customizable AI agents, supporting sophisticated trading strategies across multiple protocols.
 
 ## Grix's onchain derivatives data AI updates
 
@@ -11,19 +11,19 @@ Calypso is Grix's advanced AI framework for structured products and derivatives 
 
 ## Key Features
 
-- **Multi-Protocol Integration**: Seamlessly connects with major DeFi derivatives protocols
-- **AI-Powered Strategies**: Implements sophisticated derivatives trading strategies using artificial intelligence
-- **Customizable Agents**: Deploy and customize trading agents with specific strategies
-- **On-Chain Execution**: All trading operations are executed directly on-chain
-- **Real-Time Analytics**: Monitor and analyze strategy performance in real-time
+- **AI Agent Integration**: Deploy and customize intelligent trading agents that interact with DeFi derivatives
+- **Multi-Protocol Support**: Seamless connection with major DeFi derivatives protocols
+- **Advanced Strategy Implementation**: Execute sophisticated derivatives trading strategies powered by AI
+- **On-Chain Execution**: Direct on-chain operation of all trading activities
+- **Real-Time Analytics**: Comprehensive monitoring and analysis of agent performance
 
 ## Architecture
 
-Calypso framework is built on a modular architecture that consists of:
+Calypso's modular architecture consists of:
 
-1. **Strategy Layer**: Core trading logic reinforced with structured derivatives strategies products.
-2. **Protocol Adapters**: Interfaces with various DeFi derivatives protocols
-3. **Agent Framework**: Customizable trading agents that execute strategies
+1. **AI Agent Framework**: Core system for deploying and managing intelligent trading agents
+2. **Protocol Adapters**: Standardized interfaces for DeFi derivatives protocols
+3. **Strategy Layer**: Advanced trading logic for derivatives strategies
 4. **Analytics Engine**: Performance monitoring and reporting
 
 ## Development
