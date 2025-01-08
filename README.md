@@ -1,18 +1,18 @@
-# Calypso - Grix's AI Options Strategy Framework
+# Calypso - Grix's AI Derivatives Strategy Framework
 
 ## Overview
 
-Calypso is Grix's advanced AI framework for structured products and options trading strategies. It serves as an intelligent layer that enables automated options trading across multiple DeFi protocols through customizable agents.
+Calypso is Grix's advanced AI framework for structured products and derivatives trading strategies. It serves as an intelligent layer that enables automated derivatives trading across multiple DeFi protocols through customizable agents.
 
-## Grix's onchain options data AI updates
+## Grix's onchain derivatives data AI updates
 
 - [Telegram Channel](https://web.telegram.org/k/#@Calypso_by_Grix)
 - [Twitter / X](https://x.com/calypso_by_grix)
 
 ## Key Features
 
-- **Multi-Protocol Integration**: Seamlessly connects with major DeFi options protocols
-- **AI-Powered Strategies**: Implements sophisticated options trading strategies using artificial intelligence
+- **Multi-Protocol Integration**: Seamlessly connects with major DeFi derivatives protocols
+- **AI-Powered Strategies**: Implements sophisticated derivatives trading strategies using artificial intelligence
 - **Customizable Agents**: Deploy and customize trading agents with specific strategies
 - **On-Chain Execution**: All trading operations are executed directly on-chain
 - **Real-Time Analytics**: Monitor and analyze strategy performance in real-time
@@ -21,8 +21,8 @@ Calypso is Grix's advanced AI framework for structured products and options trad
 
 Calypso framework is built on a modular architecture that consists of:
 
-1. **Strategy Layer**: Core trading logic reinforced with structured options strategies products.
-2. **Protocol Adapters**: Interfaces with various DeFi options protocols
+1. **Strategy Layer**: Core trading logic reinforced with structured derivatives strategies products.
+2. **Protocol Adapters**: Interfaces with various DeFi derivatives protocols
 3. **Agent Framework**: Customizable trading agents that execute strategies
 4. **Analytics Engine**: Performance monitoring and reporting
 
