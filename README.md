@@ -4,6 +4,11 @@
 
 Calypso is Grix's advanced AI framework for structured products and options trading strategies. It serves as an intelligent layer that enables automated options trading across multiple DeFi protocols through customizable agents.
 
+## Grix's onchain options data AI updates
+
+- [Telegram Channel](https://web.telegram.org/k/#@Calypso_by_Grix)
+- [Twitter / X](https://x.com/calypso_by_grix)
+
 ## Key Features
 
 - **Multi-Protocol Integration**: Seamlessly connects with major DeFi options protocols
