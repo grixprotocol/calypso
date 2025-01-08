@@ -17,11 +17,40 @@
 
 ---
 
-# Calypso: DeFi Derivatives Intelligence Framework
+## What is Calypso?
 
-## Overview
+Calypso is an intelligent trading framework that connects major DeFi options protocols through customizable AI agents. Whether you're running basic covered calls or complex multi-protocol strategies, Calypso adapts to your trading style.
 
-Calypso is an AI-powered framework that makes complex derivatives trading accessible to everyone. We connect major DeFi derivatives protocols through intelligent agents, starting with options trading as our first milestone.
+### Trading Agents That Work For You
+
+- **Flexible Strategy Design**: Deploy pre-built strategies or create your own
+- **Multi-Protocol Access**: Trade across different DeFi options protocols from one place
+- **Risk Management**: Built-in position monitoring and automated adjustments
+- **Market Analysis**: Real-time data analysis and execution optimization
+
+### Built For Every Trader
+
+**New to Options?**
+- Start with basic strategies
+- Learn from market analysis
+- Built-in risk parameters
+
+**Experienced Trader?**
+- Customize complex strategies
+- Fine-tune execution parameters
+- Cross-protocol arbitrage
+
+**Professional User?**
+- Deploy systematic strategies
+- Access advanced order types
+- Institutional-grade risk controls
+
+### Common Use Cases
+
+- Generate yield through options strategies
+- Automate protective puts and hedging
+- Execute delta-neutral positions
+- Capture cross-protocol opportunities
 
 ## Key Problems We Solve
 
