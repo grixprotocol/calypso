@@ -1,0 +1,59 @@
+{
+    "name": "Basic Asset Protection Playbook Example",
+    "version": "1.0.0",
+    "description": "Simple playbook that buys an asset and protects it with a put option",
+    "author": "Calypso",
+    "strategies": [
+        {
+            "id": "protective_put",
+            "reference": "strategies/1/strategy.json",
+            "weight": 1.0
+        }
+    ],
+    "entry_conditions": {
+        "market": {
+            "volatility_range": {
+                "min": 0.2,
+                "max": 0.6
+            },
+            "trend": [
+                "sideways",
+                "bullish"
+            ],
+            "minimum_daily_volume_usd": 50000000
+        },
+        "technical": {
+            "rsi_14d": {
+                "min": 35,
+                "max": 65
+            }
+        }
+    },
+    "position_management": {
+        "spot": {
+            "size": 1.0,
+            "stop_loss_percentage": 5.0,
+            "take_profit_percentage": 15.0
+        },
+        "put_option": {
+            "strike_percentage": 95,
+            "duration": "30d",
+            "max_premium_percentage": 2.0
+        }
+    },
+    "risk_rules": {
+        "max_position_size_usd": 10000,
+        "max_loss_per_trade_percentage": 5.0,
+        "max_open_positions": 1
+    },
+    "agent_behavior": {
+        "rebalancing": {
+            "frequency": "daily",
+            "threshold_percentage": 2.0
+        },
+        "monitoring": {
+            "price_check_interval": "5m",
+            "health_check_interval": "1h"
+        }
+    }
+}
