@@ -46,6 +46,10 @@ We are continuously working to:
 
 We welcome contributions from the community. Please refer to our contribution guidelines for more information.
 
+## Strategy Development
+
+- [Strategy Development Guide](strategies/README.md)
+
 ---
 
 *Note: Calypso is under active development.
