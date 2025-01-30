@@ -138,6 +138,7 @@ We're excited about laying the foundation for the next generation of DeFi tradin
 - [Onchain Options Adapter](https://github.com/grixprotocol/defi-options-adapters)
 - [Onchain Options Hub](https://github.com/grixprotocol/defi-options-hub)
 - [Grix Documentation](https://docs.grix.finance)
+- [User Interaction Guide](./USER_GUIDE.md) 🆕
 
 ## Contributing
 
